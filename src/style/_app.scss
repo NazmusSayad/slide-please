@@ -1,0 +1,17 @@
+#a {
+  height: 100vh;
+  width: 50vw;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  background: aquamarine;
+  z-index: 348;
+  &.show {
+    transition: left 0.1s;
+    left: 0;
+  }
+  &.hide {
+    transition: left 0.2s;
+    left: -100%;
+  }
+}
